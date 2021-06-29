@@ -1,0 +1,13 @@
+app:
+  applicationId: c95d4d09-7dd2-4dea-9d36-0ba7d845fa5b # (required)
+  env: Development # (required)
+  host: http://localhost:3000 # (required)
+
+  graphqlConf:
+      enabled: true
+      operation: ALL
+  autoPolicy: true
+  autoInputVectors: true
+hawk:
+  spider:
+    base: false
